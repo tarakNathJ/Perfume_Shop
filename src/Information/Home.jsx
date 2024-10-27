@@ -4,10 +4,12 @@ import {HiReply} from "react-icons/hi";
 import {HiOutlinePhone} from "react-icons/hi";
 import {HiMail} from "react-icons/hi";
 import doc from '../assets/doc.png'
+import {useNavigate,Link} from 'react-router-dom';
 
 
 
 function Home() {
+	
   return (
 	<>
 
@@ -16,19 +18,19 @@ function Home() {
 				<div className='w-[45%] h-full  flex flex-col justify-between'>
 					<div className='w-full h-[68%]   flex justify-end flex-col gap-[5%] '>
 						<div className=' w-full h-[40%]   flex flex-col justify-between items-start '>
-							<p className='text-2xl font-medium mx-[5%] font-sans text-green-600 '>Welcome to your health care destination!</p>
-							<h1 className='text-[35px] font-bold font-sans mx-[5%]'> Your <span className='text-green-600'> Health</span> ,Our Priority Expert <span className='text-green-600'> Care</span> You Can Trust!</h1>
+							<p className='text-2xl font-medium mx-[5%] font-sans text-green-600 '>Welcome to your corve perfume store</p>
+							<h1 className='text-[35px] font-bold font-sans mx-[5%]'>Smell good makes us<span className='text-green-600'>  feel good</span> ,Our Priority Expert <span className='text-green-600'> High</span> </h1>
 						</div>
 						<div className=' w-full h-[23%] '>
-							<p className='text-xl font-sans mx-[5%]  font-medium  text-stone-600 '> Get the care you need with our friendly team of doctors and staff! We're here to help you feel better and stay healthy Learn about our services and reach out to us anytime
+							<p className='text-xl font-sans mx-[5%]  font-medium  text-stone-600 '> Admin email : tarakjana355@gmail.com , and password is: tomtom , and customer email is : tapok76484@aqqor.com , and password is: tomtom
 							</p>
 						</div>
 						<div className=' w-full h-[15%]  flex flex-wrap  justify-around'>
-							<button className='py-2 px-8 bg-green-600  rounded-full text-xl font-semibold text-white hover:bg-green-500 duration-500 '>Make Appointment</button>
-							<button className='py-2 px-8 bg-white rounded-full text-xl font-semibold text-green-600  hover:bg-slate-100  duration-500  '>Read More</button>
+							<button className='py-2 px-8 bg-green-600  rounded-full text-xl font-semibold text-white hover:bg-green-500 duration-500 '> <Link to={'/Product'}>Visit Store</Link> </button>
+							<button  className=' cursor-not-allowed py-2 px-8 bg-white rounded-full text-xl font-semibold text-green-600  hover:bg-slate-100  duration-500   '>Read More</button>
 						</div>
 					</div>
-					<div className='w-full h-[30%] mx-[5%]  flex  items-end '>
+					{/*<div className='w-full h-[30%] mx-[5%]  flex  items-end '>
 						<div className='w-[57%] h-[95%] bg-stone-100 shadow-md shadow-slate-400  rounded-3xl  relative'>
 							<div className=" absolute bg-white w-[60%] h-11 top-0 right-0 rounded-bl-2xl rounded-tr-2xl "></div>
 							<div className=' absolute  text-white right-0 bottom-0 w-11 h-11 rounded-full bg-green-500 text-3xl  text-end flex  justify-center items-center rotate-90  '><HiReply /></div>
@@ -40,7 +42,7 @@ function Home() {
 							</div>
 						</div>
 
-					</div>
+					</div>*/}
 				</div>
 
 				<div className=' relative w-[45%] h-full  flex justify-center items-center'>
